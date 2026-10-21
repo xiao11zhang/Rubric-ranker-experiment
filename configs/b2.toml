@@ -1,0 +1,6 @@
+extends = "common.toml"
+[experiment]
+method = "b2"
+name = "pilot-b2"
+[runtime]
+output_dir = "runs/pilot-b2"

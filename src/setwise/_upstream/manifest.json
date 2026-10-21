@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "local_path": "rr/set_selection.py",
+      "repository": "8421BCD/RubricRanker",
+      "commit": "f464f083bd54cf6b1464a4347d7e9811a2c6de50",
+      "upstream_path": "verl/verl/utils/reward_score/set_selection.py",
+      "git_blob_sha1": "e0e7c8eca2981ce8f8298451e7e2d5f8a7fff284",
+      "url": "https://github.com/8421BCD/RubricRanker/blob/f464f083bd54cf6b1464a4347d7e9811a2c6de50/verl/verl/utils/reward_score/set_selection.py"
+    },
+    {
+      "local_path": "rr/set_level_rubric_scoring.yaml",
+      "repository": "8421BCD/RubricRanker",
+      "commit": "f464f083bd54cf6b1464a4347d7e9811a2c6de50",
+      "upstream_path": "data_process/prompts/set_level_rubric_scoring.yaml",
+      "git_blob_sha1": "46cf506e1ebbafab783d9fa7a77f900cd383a218",
+      "url": "https://github.com/8421BCD/RubricRanker/blob/f464f083bd54cf6b1464a4347d7e9811a2c6de50/data_process/prompts/set_level_rubric_scoring.yaml"
+    },
+    {
+      "local_path": "ato/adaptive_hints.yaml",
+      "repository": "AdaTutoRank/AdaTutoRank",
+      "commit": "7df929c42482dccd0181b29a22983356762a7b92",
+      "upstream_path": "ATO/experiments/adatutorank_ato/prompt/adaptive_hints.yaml",
+      "git_blob_sha1": "2fbb258d4ded535f0575bac7b574c9093770ea45",
+      "url": "https://github.com/AdaTutoRank/AdaTutoRank/blob/7df929c42482dccd0181b29a22983356762a7b92/ATO/experiments/adatutorank_ato/prompt/adaptive_hints.yaml"
+    },
+    {
+      "local_path": "ato/self_selector.yaml",
+      "repository": "AdaTutoRank/AdaTutoRank",
+      "commit": "7df929c42482dccd0181b29a22983356762a7b92",
+      "upstream_path": "ATO/experiments/adatutorank_ato/prompt/self_selector.yaml",
+      "git_blob_sha1": "1d6591aef7777859f858cbd191372e44570625ec",
+      "url": "https://github.com/AdaTutoRank/AdaTutoRank/blob/7df929c42482dccd0181b29a22983356762a7b92/ATO/experiments/adatutorank_ato/prompt/self_selector.yaml"
+    },
+    {
+      "local_path": "ato/self_reflector.yaml",
+      "repository": "AdaTutoRank/AdaTutoRank",
+      "commit": "7df929c42482dccd0181b29a22983356762a7b92",
+      "upstream_path": "ATO/experiments/adatutorank_ato/prompt/self_reflector.yaml",
+      "git_blob_sha1": "27c8e2ad6a422f6c2c69a5a6f7b66bc499c522d8",
+      "url": "https://github.com/AdaTutoRank/AdaTutoRank/blob/7df929c42482dccd0181b29a22983356762a7b92/ATO/experiments/adatutorank_ato/prompt/self_reflector.yaml"
+    },
+    {
+      "local_path": "rr/LICENSE",
+      "repository": "8421BCD/RubricRanker",
+      "commit": "f464f083bd54cf6b1464a4347d7e9811a2c6de50",
+      "upstream_path": "verl/LICENSE",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "url": "https://github.com/8421BCD/RubricRanker/blob/f464f083bd54cf6b1464a4347d7e9811a2c6de50/verl/LICENSE"
+    },
+    {
+      "local_path": "ato/LICENSE",
+      "repository": "AdaTutoRank/AdaTutoRank",
+      "commit": "7df929c42482dccd0181b29a22983356762a7b92",
+      "upstream_path": "ATO/LICENSE",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "url": "https://github.com/AdaTutoRank/AdaTutoRank/blob/7df929c42482dccd0181b29a22983356762a7b92/ATO/LICENSE"
+    }
+  ]
+}
