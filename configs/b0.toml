@@ -1,6 +1,0 @@
-extends = "common.toml"
-[experiment]
-method = "b0"
-name = "pilot-b0"
-[runtime]
-output_dir = "runs/pilot-b0"

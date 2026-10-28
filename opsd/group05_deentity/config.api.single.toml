@@ -1,0 +1,38 @@
+model = "/ai/yaodong/opsd-20261026/opsd/sft/models/rr-qwen3-4b-sft-r16-merged-001"
+revision = "main"
+student_device = "cuda:0"
+teacher_device = "cuda:0"
+dtype = "bfloat16"
+seed = 42
+train_data = "opsd/data/rr_rag/train.jsonl"
+val_data = "opsd/data/rr_rag/val.jsonl"
+output = "opsd/group05_deentity/runs/deentity-001"
+pi_mode = "deentity"
+top_k = 0
+max_prompt_tokens = 12000
+max_response_tokens = 128
+steps = 1000
+gradient_accumulation = 4
+learning_rate = 0.00001
+max_grad_norm = 1.0
+save_every = 100
+use_lora = true
+lora_rank = 16
+lora_alpha = 32
+
+baseline_plan = "opsd/full_run/plan.json"
+stop_after_step = 500
+annotation_provider = "external_api"
+derived_data = "opsd/group05_deentity/data/agent/candidates.jsonl"
+review_data = "opsd/group05_deentity/data/agent/review.jsonl"
+extraction_manifest = "opsd/group05_deentity/data/agent/manifest.json"
+
+# API extraction only; training hyperparameters above remain identical.
+api_run_name = "run-007-single"
+api_tls_backend = "windows_truststore"
+api_max_tokens = 2048
+api_thinking = "disabled"
+api_temperature = 0.0
+api_json_mode = false
+api_timeout_seconds = 120
+api_max_attempts = 1

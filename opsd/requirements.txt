@@ -1,0 +1,8 @@
+# Install a CUDA-compatible PyTorch build separately on the server.
+transformers>=4.51.0,<5
+peft>=0.15,<1
+accelerate>=1.6,<2
+pyarrow>=16
+safetensors>=0.5
+tensorboard>=2.16,<3
+tomli>=2; python_version < "3.11"

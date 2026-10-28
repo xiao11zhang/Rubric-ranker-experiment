@@ -1,3 +1,2 @@
-# Preserve audited Git blob hashes across Windows/Linux checkouts.
-src/setwise/_upstream/** -text
-src/setwise/prompts/*.yaml text eol=lf
+# Preserve source bytes for frozen provenance checks.
+opsd/** -text

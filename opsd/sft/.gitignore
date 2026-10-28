@@ -1,0 +1,8 @@
+backend/
+data/
+runs/
+models/
+results/
+upstream/*.tar
+__pycache__/
+pipeline-status.json

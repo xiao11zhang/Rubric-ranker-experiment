@@ -1,0 +1,23 @@
+# Run from the parent of opsd/: python -m opsd.train --config opsd/configs/pilot.toml
+# Paths are relative to the working directory. Change model paths/devices on the server.
+model = "Qwen/Qwen3-4B"
+revision = "main" # Replace with an immutable revision before comparative experiments.
+student_device = "cuda:0"
+teacher_device = "cuda:1"
+dtype = "bfloat16"
+seed = 42
+train_data = "opsd/data/rr_rag/train.jsonl"
+val_data = "opsd/data/rr_rag/val.jsonl"
+output = "opsd/runs/pilot-correct"
+pi_mode = "correct"
+top_k = 0 # 0: variable-size ordered subset, preserving RR task; >0: exactly k.
+max_prompt_tokens = 12000
+max_response_tokens = 128
+steps = 20
+gradient_accumulation = 4
+learning_rate = 0.00001
+max_grad_norm = 1.0
+save_every = 10
+use_lora = true
+lora_rank = 16
+lora_alpha = 32
